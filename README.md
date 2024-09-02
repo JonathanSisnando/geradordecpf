@@ -22,10 +22,9 @@ cd nome-do-repositorio
 2.Instale as dependências do projeto:
 
    Navegue até o diretório do projeto e execute o comando abaixo para instalar o Cypress e outras dependências:
+
+   
    npm install
-
-
-
 
 Estrutura do Projeto
 
@@ -36,6 +35,8 @@ Executando os Testes
 1.Inicie o Cypress:
 
 Para iniciar a interface gráfica do Cypress e executar os testes, use o comando:
+
+
 npx cypress open
 
 Isso abrirá o Cypress Test Runner, onde você poderá clicar no arquivo de teste gerador_cpf_spec.js para executá-lo.
@@ -43,6 +44,7 @@ Isso abrirá o Cypress Test Runner, onde você poderá clicar no arquivo de test
 2. Executar em modo headless (opcional):
 
 Se você preferir executar os testes em modo headless (sem interface gráfica), use o comando:
+
 npx cypress run
 
 Descrição do Teste
