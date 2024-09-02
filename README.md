@@ -3,7 +3,7 @@
 
 # Teste de Geração de CPF
 
-Este projeto contém um teste automatizado para verificar a funcionalidade de geração de CPFs em um site específico. O teste usa a ferramenta Cypress para garantir que o CPF gerado pelo site começa com o número 7.
+Este projeto contém um teste automatizado para verificar a funcionalidade de geração de CPFs em um site específico. O teste usa a ferramenta Cypress para garantir que o script pare quando o CPF gerado pelo site  começar com o número 7.
 
 ## Pré-requisitos
 
