@@ -4,11 +4,9 @@ describe('Gerador de CPF', () => {
     // Define um caso de teste específico que verifica se o CPF gerado começa com 7.
 
     // Intercepta todas as solicitações de rede XHR e Fetch para não serem logadas.
-    // Isso ajuda a manter os logs mais limpos, ignorando requisições que não afetam o teste.
     cy.intercept({ resourceType: /xhr|fetch/ }, { log: false });
 
     // Trata exceções não capturadas, fazendo com que não interrompam o teste.
-    // Isso evita que o teste falhe por erros inesperados que não afetam o objetivo do teste.
     Cypress.on('uncaught:exception', () => false);
 
     // Navega para a página onde o CPF pode ser gerado.
