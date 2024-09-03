@@ -74,4 +74,4 @@ Este projeto está licenciado sob a MIT License.
 
 ---
 
-Esses ajustes ajudam a tornar o README mais claro e útil para o recrutador ou qualquer outra pessoa que precise executar e entender o seu projeto.
+
